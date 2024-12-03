@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Oscar Guerrero Maya" />
+    <meta
+      name="description"
+      content="Portafolio Desarrollo Web Oscar Guerrero Maya"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+    <title>Guerrero Maya | Desarrollo Web Front-End</title>
+    <link rel="shortcut icon" href="assets/img/software-development-32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Inicio navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="assets/img/software-development.png"
+              width="50"
+              alt="Logotipo página web"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#frases">Frases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mis-datos">Mis Datos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin navbar   -->
+
+    <!-- Inicio Hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        
+        <img
+          class="hero-imagen-desarrollador rounded-circle"
+          src="assets/img/software-development.png"
+          alt="Foto Código"
+        />
+        <h1>Hola, soy Oscar Guerrero Maya</h1>
+        <h2>Me interesa el Front End Development a nivel profesional.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="img-fluid"
+          src="assets/img/hero-inferior.svg"
+          alt="Laptop, monitor, logotipos HTML, CSS, JavaScript y React."
+        />
+      </div>
+    </section>
+    <!-- Fin Hero -->
+    <!-- Inicio Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Oscar Guerrero Maya</h2>
+        <p class="seccion-texto">
+          Con una amplia experiencia en Comunicación, Publicidad y Marketing, mi interés por el Desarrollo Web fue creciendo con el tiempo. Mi primer acercamiento al Mundo Digital ocurrió hace varios años, cuando gestionaba y actualizaba los sitios web de una empresa de turismo a nivel nacional, mucho antes de que JavaScript permitiera las maravillas que conocemos hoy. <br><br>
+
+          Decidido a seguir este nuevo camino, comencé a formarme de manera autodidacta y, más tarde, participé en un bootcamp de Full Stack Development. Desde entonces, no he dejado de aprender, ya que considero que esa es la verdadera magia del desarrollo: siempre hay algo nuevo por descubrir. <br><br>
+          
+        </p>
+      </div>
+    </section>
+    <!-- Fin Sobre Mí -->
+    <!-- Inicio Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Artículos -->
+          <div class="columna col-12 col-md-4">
+            <img src="assets/img/designer.png" alt="Tendencias">
+            <p class="experiencia-titulo">Tendencias</p>
+            <p>
+              Este mágico mundo todos los días avanza, y es indispensable estar informado. Aquí encontrarás algunos artículos que me resultan interesantes.  
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Consultar</span>
+              <span class="badge text-bg-primary">Informarse</span>
+              <span class="badge text-bg-primary">Aprender</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <img src="assets/img/content.png" alt="Plataformas estudio">
+            <p class="experiencia-titulo">Estudios</p>
+            <p>
+              Ya sea de manera formal o autodidacta, mi camino de aprendizaje ha sido de asombro y descubrimiento. ¡Lo mejor siempre está por venir!
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Kodemia</span>
+              <span class="badge text-bg-primary">Udemy</span>
+              <span class="badge text-bg-primary">FreeCodeCamp</span>
+            </div>
+          </div>
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <img src="assets/img/clean-coding.png" alt="Computer Logo">
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Me he enfocado en los lenguajes que se necesitan para tener una base sólida en Front End Development. Cada día hay un nuevo reto por aprender. 
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Experiencia -->
+    <!-- Inicio Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos proyectos que he creado recientemente.
+      </h3>
+      <!-- Fin Proyectos -->
+      <!-- Inicio Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto1.jpg" alt="Proyecto 1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Catalogo-Mascotas.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://catalogo-mascotas.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto2.jpg" alt="Proyecto 2" />
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Feed-Publicaciones.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://feed-publicaciones.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto3.jpg" alt="Proyecto 3" />
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Lista-Usuarios-Productos.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://lista-usuarios-productos.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto4.jpg" alt="Proyecto 4" />
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Log-In-Log-Out-Users-List.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://log-in-log-out-users-list.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto5.jpg" alt="Proyecto 5" />
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Array-Rick-Y-Morty.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://array-rick-y-morty.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto6.jpg" alt="Proyecto 6" />
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Formulario-React-Hook-Form.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://formulario-react-hook-form.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 7 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto7.jpg" alt="Proyecto 7" />
+              <div class="overlay">
+                <p>Proyecto 7</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Pagina-Agencia-Marketing.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://pagina-agencia-marketing.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 8 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto8.jpg" alt="Proyecto 8" />
+              <div class="overlay">
+                <p>Proyecto 8</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Portafolio-Bootstrap-Maquetado.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://portafolio-bootstrap-maquetado.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 9 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/proyecto9.jpg" alt="Proyecto 9" />
+              <div class="overlay">
+                <p>Proyecto 9</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/GuerreroMaya/Portafolio-HTML-CSS-Puro.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://portafolio-html-css-puro.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/GuerreroMaya?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- Fin Galeria de Proyectos -->
+    <!-- Inicio Artículos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Tendencias</h2>
+      <div class="card">
+        <div class="card-header">Más recientes</div>
+        <ul class="list-group list-group-flush">
+          <a
+            href="https://prismic.io/blog/web-development-trends"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Top 10 Tendencias para Web Development en 2024</li>
+          </a>
+          <a
+            href="https://thenewstack.io/top-10-javascript-libraries-to-use-in-2024/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Top 10 Librerías para JavaScript 2024</li>
+          </a>
+          <a
+            href="https://www.freecodecamp.org/news/learn-react-key-concepts/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Conceptos Básicos para aprender React</li>
+          </a>
+          <a
+            href="https://youtu.be/OBayKS6gRbg?si=-T6B7trTxAhf_G8f"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Top 10 Actualizaciones Web del Google I/O 2024</li>
+          </a>
+          <a
+            href="https://www.xataka.com/robotica-e-ia/25-nuevo-codigo-google-se-genera-ia-mensaje-inquietante-para-todos-desarrolladores"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Si eres desarrollador, Google lo tiene claro: más que programar código, pronto acabarás revisando el que programa la IA </li>
+          </a>
+        </ul>
+      </div>
+      <a
+        href="https://dev.to/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- Fin Artículos -->
+    <!-- Inicio Frases -->
+    <section id="frases" class="frases seccion-clara">
+      <h2 class="seccion-titulo">Personajes del Web Development</h2>
+      <h3 class="seccion-descripcion">Estas son algunas frases que me inspiran:</h3>
+      <!-- Carrusel -->
+      <div id="frases-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="frase-imagen rounded-circle" src="assets/img/Tim_Berners_Lee_256.jpg" alt="Foto Tim Berners-Lee">
+              <blockquote cite="https://www.theguardian.com/technology/2019/mar/12/tim-berners-lee-on-30-years-of-the-web-if-we-dream-a-little-we-can-get-the-web-we-want
+              " class="frase-texto">“La web es para todos y, colectivamente, tenemos el poder de cambiarla. No será fácil, pero si soñamos un poco y trabajamos mucho, podemos lograr la web que queremos.”
+            </blockquote>
+              <div class="frase-info">
+                <p class="cliente">Tim Berners-Lee</p>
+                <p class="cargo">Creador de la World Wide Web</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="frase-imagen rounded-circle" src="assets/img/Linus_Torvalds_256.jpg" alt="Foto Linus Torvalds">
+              <blockquote cite="https://en.wikiquote.org/wiki/Linus_Torvalds" class="frase-texto">“La mayoría de los buenos programadores programan no porque esperan que les paguen o que les adore el público, sino porque es divertido programar.”
+              </blockquote>
+              <div class="frase-info">
+                <p class="cliente">Linus Torvalds</p>
+                <p class="cargo">Creador Principal del Kernel de Linux</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="frase-imagen rounded-circle" src="assets/img/Steve_Wozniak_256.jpg" alt="Foto Steve Wozniak">
+              <blockquote cite="https://en.wikiquote.org/wiki/Steve_Wozniak" class="frase-texto">“Si intentas hacer proyectos así, invisibles para los demás, tan perfectos como cualquier ser humano podría hacerlo, desarrollarás habilidades que otros profesionales no tienen.”
+              </blockquote>
+              <div class="frase-info">
+                <p class="cliente">Steve Wozniak</p>
+                <p class="cargo">Co-Fundador de Apple Computer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#frases-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#frases-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+    <!-- Fin Frases -->
+
+    <!-- Inicio Footer -->
+    <footer id="mis-datos" class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="assets/img/software-development.png" alt="Logo del Portafolio">
+      <p class="footer-texto text-center">Aprendo y Creo Todos Los Días.<br>Creemos Proyectos Juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/GuerreroMaya?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/oscarguerreromaya/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="assets/pdf/ogm-cv.pdf" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-person-vcard-fill"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor" >Creado por Oscar Guerrero Maya (2024) &#169;</div>
+      <a class="flaticon" href="https://www.flaticon.com/free-icons/software-development" title="software development icons">Software development icons created by Freepik - Flaticon</a>
+    </footer>
+    <!-- Fin Footer -->
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
